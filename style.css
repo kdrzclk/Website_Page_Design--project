@@ -18,7 +18,7 @@ html {
   background-color: #666;
   padding: 1rem;
   color: #fff;
-  border-bottom: 3px solid purple;
+  border-bottom: 5px solid purple;
 }
 
 .header--text span {
@@ -50,6 +50,10 @@ html {
 }
 
 .header--menu a:hover {
+  color: purple;
+}
+
+#home {
   color: purple;
 }
 
@@ -126,3 +130,35 @@ footer {
 .footer--text {
   color: #fff;
 }
+
+/* About Page */
+
+#about {
+  color: purple;
+}
+
+.dark {
+  background-color: #666;
+  color: white;
+  padding: 1rem;
+}
+
+.about-section {
+  display: flex;
+  background-color: #fff;
+  padding: 2rem;
+  margin-bottom: 12rem;
+}
+
+.section-left {
+  width: 60%;
+  margin-right: 2rem;
+  padding: 1rem;
+}
+
+.about-parag3 {
+  width: 40%;
+  height: 40%;
+}
+
+/* Services Page */
